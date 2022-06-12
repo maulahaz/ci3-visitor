@@ -25,13 +25,18 @@ More Info
 **************************
 Snapshot
 **************************
-![Pic-1](assets/portfolio/1-frontpage.PNG)
+![Pic-1](assets/portfolio/1-frontpage.png)
 <hr>
-![Pic-2](assets/portfolio/2-login and summary.PNG)
+
+![Pic-2](assets/portfolio/2-login and summary.png)
 <hr>
-![Pic-3](assets/portfolio/3-select device.PNG)
+
+![Pic-3](assets/portfolio/3-select device.png)
 <hr>
-![Pic-4](assets/portfolio/4-manage device.PNG)
+
+![Pic-4](assets/portfolio/4-manage device.png)
 <hr>
+
 ![Pic-5](assets/portfolio/5-create device.PNG)
 <hr>
+
