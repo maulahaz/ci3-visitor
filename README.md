@@ -5,21 +5,23 @@ An application to record visitors entrance and exit in a building. The data to b
 
 ### Features
 **************************
-- Multi User Login/Authorization
-- Device management
-- Visitor/User management
-- Upload file
-- Search data and pagination
-- Table auto reload by Pure Javascript 
-- Using Hash Password and Token system
-- Barcode generator
+- Multi User Login/Authorization.
+- Device management.
+- Visitor/User management.
+- Upload file.
+- Search data and pagination.
+- Table auto reload by Pure Javascript (without JQuery).
+- Using Hash Password and Token system.
+- Barcode generator Using Zend Barcode Library.
+- Simple Print Report Facility to Print the Barcode for User ID recognation.
 
 ### More Info
 **************************
-- Started Mid-May 2022
+- Started Mid-May 2022.
 - Using PHP Framework: Codeigniter 3.1.13.
 - Using MariaDB-MySQL.
 - Using Bootstrap 5.
+- Using Zend Barcode Library.
 
 ### Snapshot
 **************************
@@ -36,4 +38,16 @@ An application to record visitors entrance and exit in a building. The data to b
 <hr>
 
 ![Pic-5](assets/portfolio/5-create-device.PNG)
+<hr>
+
+![Pic-6](assets/portfolio/6-info-edit-delete-device.PNG)
+<hr>
+
+![Pic-10](assets/portfolio/10-Data-Simple-Search-and-Pagination.PNG)
+<hr>
+
+![Pic-11](assets/portfolio/11-Data-Complex-Search-and-Pagination.PNG)
+<hr>
+
+![Pic-12](assets/portfolio/12-barcode-and-print.PNG)
 <hr>
