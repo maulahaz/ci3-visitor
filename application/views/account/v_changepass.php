@@ -1,4 +1,9 @@
 <h2><?= $pageTitle;?></h2>
+
+<div class="msgbox">
+	<?php include(APPPATH.'views/notification.php');?>
+</div>
+
 <div class="row">
   <div class="col-md-3">
     <div class="card">
@@ -22,21 +27,21 @@
 	          <div class="form-group row mb-3">
 	            <label class="col-sm-3 must-be-fill">Current Password</label>
 	            <div class="col-sm-4">
-	              <input type="text" class="form-control" name="cur_pwd" value="">
+	              <input type="password" class="form-control" name="curPwd">
 	            </div>
 	          </div>  
 
 	          <div class="form-group row mb-3">
 	            <label class="col-sm-3 must-be-fill">New Password</label>
 	            <div class="col-sm-4">
-	              <input type="text" class="form-control" name="cur_pwd" value="">
+	              <input type="password" class="form-control" name="newPwd">
 	            </div>
 	          </div>
 
 	          <div class="form-group row mb-3">
 	            <label class="col-sm-3 must-be-fill">Confirm Password</label>
 	            <div class="col-sm-4">
-	              <input type="text" class="form-control" name="cur_pwd" value="">
+	              <input type="password" class="form-control" name="confPwd">
 	            </div>
 	          </div>
 

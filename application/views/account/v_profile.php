@@ -1,4 +1,9 @@
 <h2><?= $pageTitle;?></h2>
+
+<div class="msgbox">
+  <?php include(APPPATH.'views/notification.php');?>
+</div>
+
 <div class="row">
   <div class="col-md-3">
     <div class="card">

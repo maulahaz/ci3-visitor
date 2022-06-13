@@ -3,7 +3,11 @@
 <div class="card">
   <div class="card-header d-inline-flex justify-content-between align-items-center">
     <h5>List</h5>
-    <a href="<?=base_url()?>visitors/create" class="btn btn-sm btn-primary"><i class="bi bi-plus-circle"></i>  Create</a>
+    <div class="custom-button">
+      <a href="<?=base_url()?>visitors/print" class="btn btn-sm btn-info"><i class="bi bi-printer"></i>  Print</a>
+      <a href="<?=base_url()?>visitors/create" class="btn btn-sm btn-primary"><i class="bi bi-plus-circle"></i>  Create</a>   
+    </div>
+
   </div>
   <div class="card-body">
     <table class="table">
@@ -35,7 +39,12 @@
           <td><?=$row->fullname?></td>
           <td><?=$row->company?></td>
           <td><?=$row->phone?></td>
-          <td><?=$row->code?></td>
+          <!-- <td><?=$row->code?></td> -->
+          <td>
+            <div class="barcode">
+              <img src="<?=base_url('visitors/getBarcode/'.$row->code);?>">
+            </div>
+          </td>
           <td><?=$row->created_at?></td>
           <td class="text-center">
             <a href="<?=base_url()?>visitors/show/<?=$row->id?>" class="btn btn-sm btn-outline-primary"><i class="bi bi-search"></i>  Detail</a>

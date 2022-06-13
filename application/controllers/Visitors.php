@@ -490,4 +490,37 @@ class Visitors extends CI_Controller
         }  
     }
 
+    public function print()
+    {
+        if(getSignedInData('role_id') != "88"){
+            redirect('auth/forbidden');
+        }
+
+        $sql = '
+            SELECT *
+            FROM tbl_users u
+            WHERE u.role_id NOT IN (99,88) 
+            ORDER BY id DESC
+        ';
+        $dtVisitors = $this->Commons_mdl->customQuery($sql)->result();
+        $data['dtVisitors'] = $dtVisitors;
+        $data['pageTitle'] = 'Data Visitor';
+        $this->load->view('visitors/v_print', $data, FALSE);
+    }
+
+    public function getBarcode($text = NULL)
+    {
+        $this->load->library('zend');
+        $this->zend->load('Zend/Barcode');
+        $barcodeOptions = array('text'=>$text, 'barHeight'=>70, 'fontSize'=>12);
+        $rendererOptions = array('imageType'            =>'png', 
+                                 'horizontalPosition'   => 'center', 
+                                 'verticalPosition'     => 'middle');
+        // $imageResource = Zend_Barcode::factory('code128', 'image', $barcodeOptions, $rendererOptions)->render();
+        Zend_Barcode::render('code128', 'image', $barcodeOptions, array());
+        // die();
+        // $imgBarcode = Zend_Barcode::factory('code128', 'image', $barcodeOptions, array())->draw();
+        // return $imgBarcode;
+    }
+
 }
