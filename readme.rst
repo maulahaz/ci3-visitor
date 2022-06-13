@@ -26,7 +26,7 @@ More Info
 Snapshot
 **************************
 
-![Pic-1](assets/portfolio/1-frontpage.png)
+![Pic_1](assets/portfolio/1-frontpage.PNG)
 
 <hr>
 
