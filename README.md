@@ -9,7 +9,7 @@ An application to record visitors entrance and exit in a building. The data to b
 - Device management.
 - Visitor/User management.
 - Upload file.
-- Search data and pagination.
+- Simple & Complex Search Data and Pagination.
 - Table auto reload by Pure Javascript (without JQuery).
 - Using Hash Password and Token system.
 - Barcode generator Using Zend Barcode Library.
@@ -41,6 +41,9 @@ An application to record visitors entrance and exit in a building. The data to b
 <hr>
 
 ![Pic-6](assets/portfolio/6-info-edit-delete-device.PNG)
+<hr>
+
+![Pic-7](assets/portfolio/7-manage-visitor.PNG)
 <hr>
 
 ![Pic-10](assets/portfolio/10-Data-Simple-Search-and-Pagination.PNG)
