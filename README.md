@@ -22,7 +22,7 @@ An application to record visitors entrance and exit in a building. The data to b
 
 ### Snapshot
 **************************
-![Pic-1](assets/portfolio/1-frontpage.PNG){:width="300px"}
+<img src="assets/portfolio/1-frontpage.PNG" width="300"/>
 <hr>
 
 ![Pic-2](assets/portfolio/2-login-and-summary.PNG)
