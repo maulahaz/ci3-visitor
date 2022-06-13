@@ -26,7 +26,7 @@ More Info
 Snapshot
 **************************
 
-[<img alt="alt_text" width="40px" src="assets/portfolio/1-frontpage.PNG" />](https://www.google.com/)
+![<img alt="alt_text" width="40px" src="assets/portfolio/1-frontpage.PNG" />](https://www.google.com/)
 
 ![Pic-2](assets/portfolio/2-login and summary.png)
 
