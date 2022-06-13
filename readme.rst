@@ -28,7 +28,7 @@ Snapshot
 
 ![<img alt="alt_text" width="40px" src="assets/portfolio/1-frontpage.PNG" />](https://www.google.com/)
 
-![Pic-2](assets/portfolio/2-login and summary.png)
+![Pic_2]("assets/portfolio/2-login and summary.png")
 
 <hr>
 
